@@ -16,7 +16,30 @@
             <responsivegrid
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+				<header
+                    jcr:created="{Date}2022-04-13T12:56:16.050+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-04-18T11:47:27.754+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/structure/header">
+                    <links jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            linkText="Google"
+                            linkURL="www.google.com"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            linkText="Uber"
+                            linkURL="www.uber.com"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            linkText="t"
+                            linkURL="t"/>
+                    </links>
+                </header>
+			 </responsivegrid>
         </root>
     </jcr:content>
 </jcr:root>

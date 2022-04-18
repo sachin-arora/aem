@@ -1,0 +1,10 @@
+<h2><strong>Using model</strong></h2>
+<div data-sly-use.model="com.adobe.core.models.Header">
+    <p>Links</p>
+
+    <!--/* Iterate over continents */-->
+    <ul data-sly-list.link="${model.links}">
+        <li>Text: ${link.linkText} Link: ${link.url}</li>
+    </ul>
+</div>
+

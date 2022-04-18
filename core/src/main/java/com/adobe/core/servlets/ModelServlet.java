@@ -21,7 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 		"sling.servlet.methods=" + HttpConstants.METHOD_GET, "sling.servlet.paths=" + "/bin/headermodel" })
 public class ModelServlet extends SlingAllMethodsServlet {
 	
-	private String DUMMY_HEADER_PATH = "/content/we-retail/language-masters/en/experience/jcr:content/root/responsivegrid/header";
+	private String DUMMY_HEADER_PATH = "/content/training/us/en/jcr:content/root/responsivegrid/header";
 
 	private static final long serialVersionUID = -2014397651676211439L;
 
